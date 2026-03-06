@@ -1,0 +1,139 @@
+.interval-exercise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.exercise-name {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.svg-wrapper {
+  width: 100%;
+  max-width: 200px;
+}
+
+.exercise-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Phase badge ── */
+.phase-badge {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 6px;
+  padding: 8px 28px;
+  border: 2px solid #000;
+}
+
+.phase-work {
+  background-color: #000;
+  color: #fff;
+}
+
+.phase-rest {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ── Timer ── */
+.timer-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.timer-value {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  line-height: 1;
+  letter-spacing: 4px;
+}
+
+.timer-label {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+/* ── Intervals ── */
+.intervals-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.intervals-value {
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  line-height: 1;
+}
+
+.intervals-label {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+/* ── Phase info ── */
+.phase-info {
+  font-size: 0.8rem;
+  color: #777;
+  letter-spacing: 0.5px;
+}
+
+/* ── Controls ── */
+.exercise-controls {
+  display: flex;
+  gap: 16px;
+}
+
+.action-btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid #000;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.5px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.start-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.start-btn:hover {
+  background-color: #333;
+}
+
+.stop-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.stop-btn:hover {
+  background-color: #333;
+}
+
+.reset-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.reset-btn:hover {
+  background-color: #f0f0f0;
+}
